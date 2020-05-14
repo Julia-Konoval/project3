@@ -45,7 +45,7 @@ a {
   margin-top: 3rem;
   margin-left: 9rem;
   margin-right: auto;
-  /* width: 70rem; */
+  width: 70rem;
   height: 500px;
 }
 #grayspace {
@@ -111,4 +111,7 @@ footer {
   color: black;
   font-family: "Parisienne", cursive;
   font-size: medium;
+}
+#posts {
+  background-color: lightgray;
 }
