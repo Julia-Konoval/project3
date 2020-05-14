@@ -45,8 +45,7 @@ a {
   margin-top: 3rem;
   margin-left: 9rem;
   margin-right: auto;
-  margin-bottom: 9rem;
-  width: 70rem;
+  /* width: 70rem; */
   height: 500px;
 }
 #grayspace {
@@ -107,4 +106,9 @@ footer {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+#page-navigation {
+  color: black;
+  font-family: "Parisienne", cursive;
+  font-size: medium;
 }
