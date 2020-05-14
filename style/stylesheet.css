@@ -30,10 +30,6 @@ body {
   color: white;
   text-decoration: none;
 }
-.nav-link {
-  padding-left: 7%;
-  padding-right: 7%;
-}
 #form {
   font-family: "Old Standard TT", serif;
   font-size: 1.5em;
@@ -58,8 +54,9 @@ body {
   font-family: "Parisienne", cursive;
   font-size: 40px;
   color: black;
-  margin-left: 36rem;
-  margin-right: auto;
+  text-align: center;
+  /* margin-left: 36rem;
+  margin-right: auto; */
 }
 #date {
   font-family: "Old Standard TT", serif;
