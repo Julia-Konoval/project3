@@ -44,3 +44,10 @@ a {
   /* margin-right: 60%; */
   margin-left: 33%;
 }
+#video {
+  margin-top: 3rem;
+  margin-left: 9rem;
+  margin-right: auto;
+  width: 70rem;
+  height: 500px;
+}
