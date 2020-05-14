@@ -79,8 +79,7 @@ h3 {
   margin-top: 9rem;
   /* width: 80%; */
   justify-content: space-around;
-  /* margin-right: auto;
-  margin-left: auto; */
+  align-items: center;
   padding-top: 2em;
   padding-bottom: 1em;
 }
@@ -90,11 +89,12 @@ h3 {
   border-radius: 50%;
   margin-right: 5rem;
   margin-top: 0.5rem;
+  border: 20px black solid;
 }
 #content-image2 {
   /* width: 350px; */
   height: 550px;
-  border: 10px darkgray solid;
+  border: 20px black solid;
   margin-right: 5rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -114,6 +114,7 @@ footer {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  line-height: 2rem;
 }
 #page-navigation a {
   color: black;
@@ -127,5 +128,7 @@ footer {
   margin-right: 9rem;
   text-align: center;
   border: 3px solid black;
-  list-style: none;
+}
+#page-navigation li {
+  list-style-type: none;
 }
