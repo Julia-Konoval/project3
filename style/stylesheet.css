@@ -66,7 +66,9 @@ a {
   color: darkgray;
 }
 h3 {
-  width: 50%;
+  width: 70%;
+  margin-left: 5rem;
+  color: black;
 }
 #text1,
 #text2 {
@@ -82,12 +84,27 @@ h3 {
   padding-bottom: 1em;
 }
 #content-images {
-  width: 430px;
-  height: 400px;
+  width: 480px;
+  height: 450px;
   border-radius: 50%;
+  margin-right: 5rem;
+  margin-top: 0.5rem;
 }
 #content-image2 {
-  width: 350px;
-  height: 400px;
-  /* border-radius: 50%; */
+  /* width: 350px; */
+  height: 550px;
+  border: 10px darkgray solid;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+footer img {
+  width: 200px;
+  height: auto;
+}
+footer {
+  background-color: darkgray;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
