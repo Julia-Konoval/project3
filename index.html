@@ -44,27 +44,73 @@
           <a href="https://www.vogue.com/newsletter/subscribe">Newsletter</a>
         </li>
       </nav>
+
       <div id="grayspace">
-      <form id="form">
-        <label for="email">Subscribe on our channel to see the news first</label
-        ><br /><br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email here"
-        />
-        <!-- <br/> -->
-        <button type="submit" form="form1" value="Submit">Submit</button>
         <br />
-      </form>
-      <br>
+        <br />
+        <form id="form">
+          <label for="email"
+            >Subscribe on our channel to see the news first</label
+          ><br />
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email here"
+          />
+          <button type="submit" form="form1" value="Submit">Submit</button>
+          <br />
+          <br />
+        </form>
+      </div>
+      <br />
     </header>
     <main>
-      <video id="video"  width="320" height="240" controls>
-        <source src="style/video/budapest.mov" type="video/mp4">
-          Your browser does not support the video tag.
+      <video id="video" width="320" height="240" controls>
+        <source src="style/video/budapest.mov" type="video/mp4" />
+        Your browser does not support the video tag.
       </video>
+      <nav id="page-navigation">
+        <li>
+          <a href=""></a>
+        </li>
+      </nav>
+      <div class="name">
+        <h1>Latest news</h1>
+        <p id="date"></p>
+        <script>
+          document.getElementById("date").innerHTML = Date();
+        </script>
+      </div>
+      <div id="text1">
+        <h3>
+          Телеграм боти та канали - незамінні помічники. Вони допоможуть тобі із
+          пошуком музики, обробкою фото, форматуванням тексту та ідеями для
+          контенту🤩 🖇
+          <br />
+          Топ 5 телеграм ботів, якими я користуюсь:
+          <br />
+          <br />
+          1️⃣ VKM bot - знайде будь-яку потрібну вам пісню, яку можна згодом
+          зберегти у власному телеграм-каналі 🎶 ⠀<br />
+          2️⃣Text4instabot - вирівняє ваш текст і надасть йому естетичного
+          вигляду. 📝 ⠀<br />
+          3️⃣Voicy - трансформує будь-яке аудіо в текст. Пересилайте свої
+          голосові, лекції з універу і отримуйте письмовий варіант. ⠀<br />
+          4️⃣instasavegrambot - виймає вміст інста-постів та дозволяє зберігати
+          їх вміст. ⠀<br />
+          5️⃣deagle_bot - ваш помічник з генерування контенту. Тут безліч ідей,
+          перелік свят і подій. За натхненням - точно сюди
+        </h3>
+        <a href="style/images/photo1.jpeg">
+          <img
+            id="content-images"
+            src="style/images/photo1.jpeg"
+            alt="red lips"
+          />
+        </a>
+      </div>
     </main>
   </body>
 </html>
