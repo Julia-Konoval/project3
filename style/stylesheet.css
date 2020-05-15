@@ -129,3 +129,17 @@ footer {
 #page-navigation li {
   list-style-type: none;
 }
+@media all and (max-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #content-images,
+  #content-image2 {
+    width: 100%;
+  }
+  h3 {
+    width: 100%;
+  }
+}
