@@ -129,17 +129,46 @@ footer {
 #page-navigation li {
   list-style-type: none;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 748px) {
   body {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
   }
 
-  #content-images,
+  /* #content-images,
   #content-image2 {
+    width: 100%;
+  } */
+  #text1,
+  #text2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
     width: 100%;
   }
   h3 {
+    /* width: 100%; */
+    display: block;
+  }
+  #content-images,
+  #content-image2 {
+    /* width: 100px;
+    height: 100px; */
+    width: 80%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  li {
+    font-size: 30px;
+  }
+  #video {
     width: 100%;
+    margin-left: 0;
+  }
+  #page-navigation {
+    border: white;
   }
 }
